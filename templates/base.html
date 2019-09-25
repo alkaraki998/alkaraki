@@ -1,0 +1,85 @@
+{% load staticfiles %}
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codedaddies List</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar-fixed">
+    <nav>
+        <div class="container nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<div class="container"> <!--#CONTAINER-->
+    <h1>search what ever u want </h1>
+    <div class="row ">
+        <div class="col S4">
+            <div class="center">
+                <div class=" icon-preview col s6 m3">
+                    <i class="large material-icons dp48" style="color:#ef6c00 ">flash_on</i>
+                    <p>what</p>
+                    <p class="lighr center">r u doin'</p>
+                </div>
+            </div>
+         </div>
+
+
+
+        <div class="col S4">
+            <div class="center">
+                <div class=" icon-preview col s6 m3">
+                    <i class="large material-icons dp48" style="color:#ef6c00 ">camera</i>
+                    <p>what</p>
+                    <p class="lighr center">r u doin'</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col S4">
+            <div class="center">
+                <div class=" icon-preview col s6 m3">
+                    <i class="large material-icons dp48" style="color:#ef6c00 ">toys</i>
+                    <p>what</p>
+                    <p class="light center">r u doin'</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h1>search </h1>
+
+<form action="{% url 'new_search' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="search" placeholder="search">
+     <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">flash_on</i>
+     </button>
+</form>
+{% block content %}
+
+
+{% endblock content %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</div><!--#CONTAINER-->
+</body>
+</html>
