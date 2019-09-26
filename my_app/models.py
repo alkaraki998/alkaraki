@@ -1,18 +1,12 @@
 from django.db import models
+from django.utils import timezone
 
 
 # Create your models here.
 
 
-class Search(models.Model):
-    search = models.CharField(max_length=500)
-    created = models.DateTimeField(auto_now=True)
+class Todo(models.Model):
+    added_date = models.DateTimeField(auto_now_add=True, blank=True)
+    text = models.CharField(max_length=200)
 
-    # to return search content not the object
-    def __str__(self):
-        return '{}'.format(self.search)
-
-    # to rename searchs
-    class Meta:
-        verbose_name_plural = 'Searches'
 
