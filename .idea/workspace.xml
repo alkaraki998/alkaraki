@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0255a26-1626-49d9-9b3d-d13ff7c57d2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeMaster/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeMaster/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeMaster/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeMaster/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/my_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_app/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e0255a26-1626-49d9-9b3d-d13ff7c57d2c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +88,7 @@
       <workItem from="1569352553875" duration="4970000" />
       <workItem from="1569419826361" duration="10566000" />
       <workItem from="1569447085591" duration="2265000" />
-      <workItem from="1569497911393" duration="224000" />
+      <workItem from="1569497911393" duration="618000" />
     </task>
     <servers />
   </component>
